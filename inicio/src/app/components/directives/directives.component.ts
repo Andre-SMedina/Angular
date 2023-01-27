@@ -6,10 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./directives.component.css'],
 })
 export class DirectivesComponent {
+  //testando estilos
   color = 'yellow';
   size = 30 + 'px';
   background = 'black';
-  width = 200 + 'px';
+  width = 300 + 'px';
 
-  classes = ['small-title', 'big-title'];
+  //testanto classes
+  classes = ['small-title', 'green-title'];
+  underline = 'underline-title';
 }
